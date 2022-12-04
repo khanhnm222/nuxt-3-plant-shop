@@ -5,7 +5,7 @@ Strapi comes with a full featured [Command Line Interface](https://docs.strapi.i
 
 ### Setup .env
 
-Create .env in the root folder and update the information as below:
+Create .env in the root folder and update the variable information as below:
 ```
 HOST=0.0.0.0
 PORT=1337

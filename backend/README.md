@@ -2,6 +2,16 @@
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
 
+
+### Setup .env
+
+Create .env in the root folder and update the information as below:
+HOST=0.0.0.0
+PORT=1337
+APP_KEYS= ..., ..., ...
+API_TOKEN_SALT=...
+ADMIN_JWT_SECRET=...
+JWT_SECRET=...
 ### `develop`
 
 Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-develop)

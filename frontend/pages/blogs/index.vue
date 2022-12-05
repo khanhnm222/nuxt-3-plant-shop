@@ -8,10 +8,11 @@
             <Heading tag="h2" font-style="h2" class="mb-1">Explore the blogs</Heading>
           </div>
         </Container>
-        <div class="container px-6 py-8 mx-auto">
-          <BlogCard />
+        <div class="container px-6 py-8 mx-auto grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-items-center">
+          <BlogCard v-for="blog in 5" :key="blog"/>
         </div>
       </div>
+      <Pagination class="flex justify-center mt-2"/>
     </section>
   </div>
 </template>

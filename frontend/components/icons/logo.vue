@@ -1,5 +1,5 @@
 <template>
-  <nuxt-link to="/" class="cursor-pointer app-logo text-2xl sm:text-sm md:text-base lg:text-2xl">
+  <nuxt-link to="/" class="cursor-pointer app-logo text-sm xs:text-sm sm:text-sm md:text-base lg:text-2xl">
     PLANT ❤ SHOP
   </nuxt-link>
   <!-- <img :src="LogoWhite" class="w-40" alt="Plant shop" /> -->

@@ -4,7 +4,7 @@ Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introdu
 
 ## Setup
 
-Create .env file in the root folder and set the base url as below:
+Create .env file in the root folder and set the base url variable as below:
 ```
 BASE_URL=http://localhost:1337
 ```

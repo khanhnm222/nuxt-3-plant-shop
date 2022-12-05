@@ -18,7 +18,7 @@
             />
           </svg>
         </button>
-        <nuxt-link to="/">
+        <nuxt-link to="/" class="min-w-[150px]">
           <IconsLogo />
         </nuxt-link>
       </div>

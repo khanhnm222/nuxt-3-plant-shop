@@ -45,6 +45,7 @@ const activateRouteClass = (route) => {
 .nav-underline:hover {
   background-position: 100% 100%; /*OR bottom right*/
   background-size: 100% 2px;
+  background-image: linear-gradient(#FED7AA, #FED7AA);
 }
 .activate-route {
   background-size: 100% 2px !important

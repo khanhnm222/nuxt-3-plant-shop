@@ -20,6 +20,9 @@
 body {
   -webkit-font-smoothing: antialised;
 }
+.snipcart-modal__container {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+}
 .snipcart-form__footer, .snipcart-base-button {
   background-color: #284139;
   color: white

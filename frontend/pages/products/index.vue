@@ -10,7 +10,7 @@
       <div class="lg:flex lg:-mx-2">
         <div class="space-y-3 lg:w-1/5 lg:px-2 lg:space-y-4 lg:block hidden">
           <a
-            class="block font-medium dark:text-blue-500 text-gray-500 dark:text-gray-300 hover:underline hover:font-semibold hover:cursor-pointer"
+            class="block font-medium text-gray-500 dark:text-gray-300 hover:underline hover:font-semibold hover:cursor-pointer"
             :class="{ 'text-brand-green font-semibold underline': filterSelector === 'all' }"
             @click="selectFilterCategory('all')"
           >All Plants</a>
@@ -25,12 +25,12 @@
           </a>
         </div>
         <div class="mt-6 lg:mt-0 lg:px-2 lg:w-4/5 ">
-          <div class="flex items-center justify-between text-sm tracking-widest uppercase ">
+          <div class="flex items-center justify-between text-sm tracking-widest uppercase">
             <p class="text-gray-500 dark:text-gray-300">{{ filteredData.length }} Items</p>
             <div class="flex items-center">
-              <p class="text-gray-500 dark:text-gray-300">Sort</p>
+              <p class="text-gray-500 dark:text-gray-300">Sort: </p>
               <select
-                class="font-medium text-gray-700 bg-transparent dark:text-gray-500 focus:outline-none hover:cursor-pointer"
+                class="text-base font-medium text-gray-500 bg-transparent dark:text-gray-500 focus:outline-none hover:cursor-pointer"
                 @change="selectSorting($event)"
               >
                 <option

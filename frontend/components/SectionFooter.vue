@@ -13,7 +13,10 @@
             <nuxt-link to="/">Home</nuxt-link>
           </li>
           <li class="underline list-disc list-inside">
-            <nuxt-link to="/shop">Shop</nuxt-link>
+            <nuxt-link to="/products">Shop</nuxt-link>
+          </li>
+          <li class="underline list-disc list-inside">
+            <nuxt-link to="/blogs">Blogs</nuxt-link>
           </li>
           <li class="underline list-disc list-inside">
             <nuxt-link to="/contact">Contact</nuxt-link>

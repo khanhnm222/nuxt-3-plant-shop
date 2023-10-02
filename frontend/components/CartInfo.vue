@@ -1,6 +1,6 @@
 <template>
   <button class="flex items-center snipcart-checkout">
-    <span class="cart-number pr-2 ml-2 text-lg font-semibold text-white snipcart-items-count bg-brand-beige text-brand-green"></span>
+    <span class="cart-number pr-2 ml-2 text-lg font-semibold snipcart-items-count bg-brand-beige text-brand-green"></span>
     <IconsCart class="w-6"/>
   </button>
 </template>
@@ -10,13 +10,14 @@
 }
 
 .cart-number {
-  padding: 0px 5px;
+  padding: 0px 6px;
+  padding-bottom: 1px;
   vertical-align: top;
   border-radius: 50%;
   line-height: 20px;
   position: absolute;
   right: 30px;
-  top: 5px;
+  top: 7px;
 }
 /* .cart-number {
   background: #ff0000;

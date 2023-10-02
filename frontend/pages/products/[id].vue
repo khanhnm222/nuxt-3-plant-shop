@@ -6,7 +6,8 @@
       </div>
       <div class="col-span-12 md:col-span-6 lg:col-span-7">
         <Heading tag="h2" font-style="h2" color="text-brand-green">{{ product?.data.attributes.Title }}</Heading>
-        <p class="mb-6 text-2xl text-brand-grey-600">{{ product?.data.attributes.Price }}</p>
+        <p class="text-2xl text-brand-grey-600">${{ product?.data.attributes.Price }}</p>
+        <RankingStar :quantityStar="product?.data.attributes.Ranking" class="mb-6"/>
         <p class="mb-6 text-2xl text-brand-grey-500">{{ product?.data.attributes.Description }}</p>
 
         <div class="flex items-center">

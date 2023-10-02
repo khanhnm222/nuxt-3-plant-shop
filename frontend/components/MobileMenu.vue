@@ -1,6 +1,6 @@
 <template>
   <nav class="fixed inset-0 z-50 flex items-center justify-center bg-brand-green">
-    <button class="absolute p-1 right-4 top-8 text-brand-beige hover:text-white" title="Close" @click="$emit('close')">
+    <button class="absolute p-1 right-4 top-8 text-brand-white hover:text-orange-200" title="Close" @click="$emit('close')">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         class="w-6 h-6"
@@ -20,7 +20,7 @@
   </nav>
 </template>
 <script setup>
-const route = useRoute();
+const route = useRoute()
 const emit = defineEmits(['close'])
 watch(route, () => {
   emit('close');

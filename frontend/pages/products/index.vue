@@ -25,12 +25,12 @@
           </a>
         </div>
         <div class="mt-6 lg:mt-0 lg:px-2 lg:w-4/5 ">
-          <div class="flex items-center justify-between text-sm tracking-widest uppercase ">
+          <div class="flex items-center justify-between text-sm tracking-widest uppercase">
             <p class="text-gray-500 dark:text-gray-300">{{ filteredData.length }} Items</p>
             <div class="flex items-center">
-              <p class="text-gray-500 dark:text-gray-300">Sort</p>
+              <p class="text-gray-500 dark:text-gray-300">Sort: </p>
               <select
-                class="font-medium text-gray-700 bg-transparent dark:text-gray-500 focus:outline-none hover:cursor-pointer"
+                class="text-base font-medium text-gray-500 bg-transparent dark:text-gray-500 focus:outline-none hover:cursor-pointer"
                 @change="selectSorting($event)"
               >
                 <option

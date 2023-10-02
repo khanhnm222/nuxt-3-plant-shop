@@ -10,7 +10,7 @@
       <div class="lg:flex lg:-mx-2">
         <div class="space-y-3 lg:w-1/5 lg:px-2 lg:space-y-4 lg:block hidden">
           <a
-            class="block font-medium dark:text-blue-500 text-gray-500 dark:text-gray-300 hover:underline hover:font-semibold hover:cursor-pointer"
+            class="block font-medium text-gray-500 dark:text-gray-300 hover:underline hover:font-semibold hover:cursor-pointer"
             :class="{ 'text-brand-green font-semibold underline': filterSelector === 'all' }"
             @click="selectFilterCategory('all')"
           >All Plants</a>
